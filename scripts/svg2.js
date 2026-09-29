@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const opentype = require('opentype.js');
 
-const USER = 'HasselNot7';
+const USER = 'Gluckhaos7';
 const CONTRIB_FALLBACK = '2';
 
 const FONT_SIZE = 13.5, LINE_H = 19, CHAR_W = 8.1;
@@ -103,12 +103,12 @@ function statRow(segs, width) {
   info.push({ t: 'name' });
   info.push({ t: 'blank' });
   [
-    ['OS.Desktop', 'Windows'],
+    ['OS.Desktop', 'macOS'],
     ['OS.Server', 'Ubuntu'],
     ['Uptime', stats.uptime],
-    ['Joined', '2025-10-21'],
+    ['Joined', '2025-12-7'],
     ['Timezone', 'UTC+8'],
-    ['Host', 'UCAS, Beijing'],
+    ['Host', 'UAL, Guangdong'],
     ['Kernel', 'AIRCAS'],
     ['Field', 'Remote Sensing & GIS'],
     ['IDE', 'VS Code'],
